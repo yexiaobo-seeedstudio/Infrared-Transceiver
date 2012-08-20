@@ -1,7 +1,7 @@
 Infrared-Transceiver
 ====================
 
-This is an android library for IR.
+This is an Android library for IR.
 
 [Seeed Studio][1]
 
