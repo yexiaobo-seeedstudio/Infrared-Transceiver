@@ -1,0 +1,222 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="622dp"
+        android:columnCount="7"
+        android:rowCount="9" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_column="3"
+            android:layout_columnSpan="3"
+            android:layout_gravity="right"
+            android:layout_row="3"
+            android:layout_rowSpan="2"
+            android:src="@drawable/change_frq" />
+
+        <Button
+            android:id="@+id/study_button"
+            android:layout_column="5"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left"
+            android:layout_row="5"
+            android:background="@drawable/study_sel" />
+
+        <Space
+            android:layout_width="52dp"
+            android:layout_height="1dp"
+            android:layout_column="3"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="65dp"
+            android:layout_height="1dp"
+            android:layout_column="4"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="48dp"
+            android:layout_height="1dp"
+            android:layout_column="5"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="56dp"
+            android:layout_height="1dp"
+            android:layout_column="6"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="32dp"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="51dp"
+            android:layout_height="1dp"
+            android:layout_column="3"
+            android:layout_row="0" />
+
+        <Button
+            android:id="@+id/ir_light"
+            android:layout_column="3"
+            android:layout_columnSpan="4"
+            android:layout_gravity="left|bottom"
+            android:layout_row="1"
+            android:layout_rowSpan="3"
+            android:background="@drawable/light_indicate" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="63dp"
+            android:layout_column="0"
+            android:layout_row="1" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="37dp"
+            android:layout_column="0"
+            android:layout_row="2" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="154dp"
+            android:layout_column="0"
+            android:layout_row="4" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="28dp"
+            android:layout_column="0"
+            android:layout_row="3" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="22dp"
+            android:layout_column="0"
+            android:layout_row="5" />
+
+        <Button
+            android:id="@+id/connect_bluetooth"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left"
+            android:layout_row="2"
+            android:layout_rowSpan="3"
+            android:background="@drawable/bt_sel" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="43dp"
+            android:layout_column="0"
+            android:layout_row="6" />
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left"
+            android:layout_row="7"
+            android:background="@drawable/send" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="23dp"
+            android:layout_column="0"
+            android:layout_row="7" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="114dp"
+            android:layout_column="0"
+            android:layout_row="8" />
+
+        <Space
+            android:layout_width="120dp"
+            android:layout_height="1dp"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="53dp"
+            android:layout_height="1dp"
+            android:layout_column="1"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="140dp"
+            android:layout_height="15dp"
+            android:layout_column="2"
+            android:layout_row="4" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="5"
+        android:rowCount="3" >
+
+        <Space
+            android:layout_width="57dp"
+            android:layout_height="1dp"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/click_indicate"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left"
+            android:layout_row="1"
+            android:src="@drawable/click_indicate" />
+
+        <ImageView
+            android:id="@+id/seeed_logo"
+            android:layout_column="3"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left"
+            android:layout_row="1"
+            android:layout_rowSpan="2"
+            android:src="@drawable/logo" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="32dp"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <Button
+            android:id="@+id/seeed_home_button"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left"
+            android:layout_row="2"
+            android:background="@drawable/name" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="87dp"
+            android:layout_column="0"
+            android:layout_row="1" />
+
+        <Space
+            android:layout_width="221dp"
+            android:layout_height="141dp"
+            android:layout_column="4"
+            android:layout_row="2" />
+
+        <Space
+            android:layout_width="186dp"
+            android:layout_height="1dp"
+            android:layout_column="2"
+            android:layout_row="0" />
+    </GridLayout>
+
+</LinearLayout>
